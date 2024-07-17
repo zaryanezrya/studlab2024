@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "about-gh"
+version = "0.1.0"
+description = ""
+authors = ["zaryanezrya <ivan@sha.run>"]
+readme = "README.md"
+packages = [{include = "about_gh"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
